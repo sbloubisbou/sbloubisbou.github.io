@@ -1,24 +1,11 @@
+# Local Backup Creator — Instructions and Documentation
 
-### This website contains the instructions to the Local Backup Creator program for Windows
-
->To download this program, go to [github.com/sbloubisbou](https://github.com/sbloubisbou/Local-Backup-Creator) and download the ***Release v1.0.1 Win_x64*** folder.
->The portable .exe file is contained inside with its dependencies and doesn't require any authorizations, simply click, run but read the documentation first!
-  ---
-
-
-![Picture of the UI of the program.](/Resources/ui_picture.png "Picture of the UI of the program")
-
-#### Before continuing your reading,
-Here is the [(un)license](/Resources/(un)license.md) — spoiler, its Public Domain.
-
-And here is the [settings file](/Resources/settings.cfg) file mentionned below. It contains every parameters of the program that you can modify to your liking! More info on what the individual parameters do below.
-
----
 ‎
 
-## Local Backup Creator — Instructions and Documentation
+>### This website contains the instructions to the Local Backup Creator program for Windows.
 
-### Overview
+
+## Overview
 
 **Local Backup Creator** is a lightweight Windows application that synchronizes files and folders between a source and a destination path.
 
@@ -29,6 +16,19 @@ This program is **public domain** — you can use, modify, or redistribute it fr
 (Though, I wouldn't recommend selling it. There are a few... bugs... to say the least!)
 
 ---
+
+>To download this program, go to [github.com/sbloubisbou](https://github.com/sbloubisbou/Local-Backup-Creator) and download the ***Release v1.0.1 Win_x64*** folder.
+>The portable .exe file is contained inside with its dependencies and doesn't require any authorizations, simply click & run but read the documentation first!
+
+![Picture of the UI of the program.](/Readme/ui_picture.png "Picture of the UI of the program")
+
+#### More info :
+Here is the [(un)license](/Readme/(un)license.md) — which is Public Domain.
+
+And here is the [settings file](/Readme/settings.cfg) file mentionned below. It contains every parameters of the program that you can modify to your liking! More info on what the individual parameters do below.
+
+---
+
 
 ## Requirements
 
@@ -96,7 +96,7 @@ With an SSD, it can analyze **hundreds of gigabytes in just a few seconds!**
 
 ### File Metadata Comparison
 
-![Picture of the file metadata setting.](/Resources/compare_file_metadata.png)
+![Picture of the file metadata setting.](/Readme/compare_file_metadata.png)
 
 For better accuracy, the program compares file **metadata** — specifically:
 
@@ -114,7 +114,7 @@ You can disable it if backups take too long and you rarely modify personal files
 
 ### Selecting Subfolders
 
-![Picture of the subfolder section](/Resources/subfolders.png)
+![Picture of the subfolder section](/Readme/subfolders.png)
 
 You can choose to back up **specific subfolders** within your main source directory.
 
@@ -136,7 +136,7 @@ Just write `Documents;Pictures:Downloads` at the *subfolders to include* section
 
 ### Backup to a Phone (MTP)
 
-![Picture of the MTP checkbox](/Resources/enable_mtp.png)
+![Picture of the MTP checkbox](/Readme/enable_mtp.png)
 
 The program can use your **phone or camera storage** as a source, log, destination and all three at the same time!
 
@@ -188,7 +188,7 @@ Here is an useful Reddit post showing an example on how to achieve this : [www.r
 
 ### Logging
 
-![Picture of the log section](/Resources/log_creation.png)
+![Picture of the log section](/Readme/log_creation.png)
 
 After every backup, a detailed **log file** can optionnaly be generated.
 
@@ -242,7 +242,7 @@ Local Backup Creator uses multiple threads to accelerate file analysis and copyi
 
 ### Automatisation
 
-![Picture of the settings.cfg file](/Resources/picture_settings.png)
+![Picture of the settings.cfg file](/Readme/picture_settings.png)
 
 You can make the program run automatically in the background:
 
