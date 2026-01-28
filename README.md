@@ -25,7 +25,7 @@ This program is **public domain** — you can use, modify, or redistribute it fr
 #### More info :
 Here is the [(un)license](/Readme/(un)license.md) — which is Public Domain.
 
-And here is the [settings file](/Readme/settings.cfg) file mentionned below. It contains every parameters of the program that you can modify to your liking! More info on what the individual parameters do below.
+And here is the [settings file](/Readme/settings.cfg) file (settings.cfg) mentionned below. It contains every parameters of the program that you can modify to your liking! More info on what the individual parameters do below.
 
 ---
 
