@@ -2,15 +2,16 @@
 ### This website contains the instructions to the Local Backup Creator program for Windows
 
 >To download this program, go to [github.com/sbloubisbou](https://github.com/sbloubisbou/Local-Backup-Creator) and download the ***Release v1.0.1 Win\_x64*** folder.
-
+>The portable .exe file is contained inside with its dependencies and doesn't require any authorizations, simply click, run but read the documentation first!
   ---
-The portable .exe file is contained inside with its dependencies and doesn't require any authorizations, simply click, run but read the documentation first!
+
 
 ![Picture of the UI of the program.](/Resources/ui_picture.png "Picture of the UI of the program")
 
+#### Before continuing your reading,
 Here is the [(un)license](/Resources/(un)license.md) — spoiler, its Public Domain.
 
-And here is the [settings file](/Resources/settings.cfg) file that contains every parameters of the program that you can modify to your liking! More info on what the parameters do below.
+And here is the [settings file](/Resources/settings.cfg) file mentionned below. It contains every parameters of the program that you can modify to your liking! More info on what the individual parameters do below.
 
 ---
 ‎
@@ -95,6 +96,8 @@ With an SSD, it can analyze **hundreds of gigabytes in just a few seconds!**
 
 ### File Metadata Comparison
 
+![Picture of the file metadata setting.](/Resources/compare_file_metadata.png)
+
 For better accuracy, the program compares file **metadata** — specifically:
 
 - File size
@@ -110,6 +113,8 @@ You can disable it if backups take too long and you rarely modify personal files
 ---
 
 ### Selecting Subfolders
+
+![Picture of the subfolder section](/Resources/subfolders.png)
 
 You can choose to back up **specific subfolders** within your main source directory.
 
@@ -130,6 +135,8 @@ Just write `Documents;Pictures:Downloads` at the *subfolders to include* section
 ---
 
 ### Backup to a Phone (MTP)
+
+![Picture of the MTP checkbox](/Resources/enable_mtp.png)
 
 The program can use your **phone or camera storage** as a source, log, destination and all three at the same time!
 
@@ -180,6 +187,8 @@ Here is an useful Reddit post showing an example on how to achieve this : [www.r
 ---
 
 ### Logging
+
+![Picture of the log section](/Resources/log_creation.png)
 
 After every backup, a detailed **log file** can optionnaly be generated.
 
@@ -232,6 +241,8 @@ Local Backup Creator uses multiple threads to accelerate file analysis and copyi
 > ---
 
 ### Automatisation
+
+
 
 You can make the program run automatically in the background:
 
