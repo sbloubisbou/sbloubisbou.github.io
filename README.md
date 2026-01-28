@@ -1,7 +1,7 @@
 
 ### This website contains the instructions to the Local Backup Creator program for Windows
 
->To download this program, go to [github.com/sbloubisbou](https://github.com/sbloubisbou/Local-Backup-Creator) and download the ***Release v1.0.1 Win\_x64*** folder.
+>To download this program, go to [github.com/sbloubisbou](https://github.com/sbloubisbou/Local-Backup-Creator) and download the ***Release v1.0.1 Win_x64*** folder.
 >The portable .exe file is contained inside with its dependencies and doesn't require any authorizations, simply click, run but read the documentation first!
   ---
 
@@ -242,7 +242,7 @@ Local Backup Creator uses multiple threads to accelerate file analysis and copyi
 
 ### Automatisation
 
-
+![Picture of the settings.cfg file](/Resources/picture_settings.png)
 
 You can make the program run automatically in the background:
 
