@@ -17,6 +17,8 @@ This program is **public domain** — you can use, modify, or redistribute it fr
 
 ---
 
+![Picture of the Icon.](/favicon.ico)
+
 >To download this program, go to [github.com/sbloubisbou](https://github.com/sbloubisbou/Local-Backup-Creator) and download the ***Release v1.0.1 Win_x64*** folder.
 >The portable .exe file is contained inside with its dependencies and doesn't require any authorizations or installation, simply click & run but read the documentation first!
 
